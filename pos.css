@@ -29,6 +29,7 @@ section:last-of-type{
 
 .electric-purple{
 	background: #C200FB;
+	float: left;
 
 
 
@@ -37,6 +38,7 @@ section:last-of-type{
 
 .raspberry{
 	background: #EC0868;
+	float: left;
 
 }
 
@@ -44,12 +46,10 @@ section:last-of-type{
 	background: #FC2F00;
 	float: left;
 
-}
-
-.green{
-	background: green;
 
 }
+
+
 
 .black{
 	background: black;
@@ -58,22 +58,43 @@ section:last-of-type{
 
 .col {
 	height: 200px;
-	width: 200px;
+	width: 250px;
+
 
 
 }
 
 .row{
 	background: yellow;
+
 }
 
 .clearfix::after{
-	content: "";
+	content: "huhu";
 	display: block;
 	width: 100%;
 	clear: both;
 }
 
-.cl{
+.clear{
 	clear: both;
+}
+
+.container{
+	background: lightblue;
+
+}
+
+.green {
+	height: 100px;
+	width: 100px;
+	background: green;
+	float: left;
+}
+.red {
+	height: 100px;
+	width: 100px;
+	background: red;
+	float: right;
+
 }
